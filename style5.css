@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: #252529;
+    width: 100%;
+    max-width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.header{
+    color: white;
+    display: flex;
+    gap: 10px;
+}
+
+.header i{
+    cursor: pointer;
+}
+
+.logo img{
+    width: 300px;
+    height: 50px;
+}
+
+.search{
+    color: white;
+    font-size: 16px;
+    font-family: 'Metropolis', sans-serif;
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: normal;
+    font-weight: bold;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.hrr{
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    width: 1150px;
+    display: block;
+    height: 0.5px;
+    border: 0;
+    border-top: 1px solid rgb(69, 66, 66);
+    margin: 16px 0;
+    opacity: 0.4;
+}
+
+nav{
+    padding-bottom: 20px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+}
+
+nav ul li{
+    color: rgb(138, 138, 138);
+    font-size: 16px;
+    line-height: 39px;
+    font-family: 'Metropolis', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+
+nav ul li:hover{
+    color: white;
+}
+
+select{
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width:600px) {
+    .card-1{
+        width: 30%;
+    }
+    .home{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    nav{
+        width: 100%;  
+    }
+}
+
+@media screen and (min-width:768px) {
+    .card-1{
+        width: 30%;
+    }
+    .home{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .card-1{
+        width: 40%;
+    }
+    .home{
+        width: 25%;;
+    }
+    .container{
+        width: 100%;;
+    }
+    nav{
+        width: 100%;    
+    }
+}
+
+.home{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.card-1{
+    width: 40%;
+    padding: 30px;
+}
+
+.card-1-img{
+    width: 100%;
+}
+
+.user-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+.body-container-cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+
+.small-container{
+    margin: 15px;
+    padding: 25px;
+    overflow: hidden;
+}
+
+.body-container-card-1{
+    width: 22%;
+    background-color: white;
+}
+
+.imggg{
+    width: 100%;
+    height: 40%; 
+    overflow: hidden;
+}
+
+.body-container-card-1 .imggg img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s linear;
+}
+
+.body-container-card-1 img:hover{
+    width: 100%;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.date span{
+    color: #656565;
+    font-size: 14px;
+    font-family: 'Metropolis', sans-serif;
+    line-height: 24px;
+    margin: 0px 0px 6px;
+}
+
+.body-container-card-1-title{
+    font-size: 24px;
+    font-family:  'Libre Baskerville';
+    line-height: 33px;
+    margin: 0px 0px 21px;
+}
+
+.body-container-card-1-desc{
+    color:#656565;
+    font-family: 'Metropolis', sans-serif;
+    font-size: 15px;
+    margin: 0px 0px 30px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.body-container-card-1-keywords{
+    font-family: 'Metropolis', sans-serif;
+}
+.body-container-card-1-keywords a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 28.5px;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+}
+
+.body-container-card-1-keywords a:hover{
+    color: black;
+}
+
+.body-container-card-2{
+    height: 500px;
+    width: 23%;
+    background-color: white;
+}
+
+blockquote{
+    font-size: 80px;
+    text-align: center;
+    padding-bottom: 20px;
+    opacity: 0.5;
+}
+
+.small-container-1{
+    margin: 0 40px;
+    text-align: center;
+}
+
+.body-container-card-1-desc2{
+    font-size: 24px;
+    font-family: 'Libre Baskerville';
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.nums{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #f2f2f2;
+    padding-bottom: 100px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Metropolis', sans-serif;
+}
+
+.num1{
+    background-color: transparent;
+    padding: 10px;
+    transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+}
+
+.num2{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.num1:hover{
+    background-color: #b4a7a7;
+}
+
+.about-main-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 100px;
+}
+
+.about-container{
+    width: 30%;
+}
+
+.about{
+    width: 100%;
+    text-align: center;
+}
+
+.about h1{
+    font-size: 24px;
+    line-height: 33px;
+    font-family: 'Libre Baskerville';
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.about p{
+    font-size: 15px;
+    font-family: 'Metropolis', sans-serif;
+    line-height: 27px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.footer-icons{
+    
+}
+
+.tag-title{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.tag-title p{
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: 500;
+}
+
+.tags{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+}
+
